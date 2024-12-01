@@ -1,0 +1,70 @@
+/* Add this to your CSS file */
+.username-icon {
+    font-size: 16px;
+    color: #333;
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .username-icon i {
+    margin-right: 5px;
+  }
+  
+  .logout-btn {
+    background: transparent;
+    border: none;
+    color: #007bff;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .logout-btn:hover {
+    color: #0056b3;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .search-form {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
+  }
+  
+  .search-input {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px 0 0 4px;
+    width: 200px;
+    color:white
+  }
+  
+  .search-button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+  }
+  
+  .search-results-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .results-grid {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .search-result-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 8px;
+  }

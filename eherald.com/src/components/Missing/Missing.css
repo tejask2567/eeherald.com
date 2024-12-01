@@ -1,0 +1,6 @@
+.centre{
+    color: red;
+    max-width: fit-content;
+  margin-inline: auto;
+  font-weight: bold;
+}

@@ -1,0 +1,33 @@
+Changes on 6th Oct 2020
+
+Changed the design to screen adopting type. mobile friendly.
+
+
+
+
+
+
+logo change
+
+1. Change india specific to automotive
+
+Design Guide to Smart Home	
+
+Sourcing Database to Smart Factory
+Electronics Engineering Herald EELECTRONICS COMPUTER AND CONNECTIVITY ENGINEERING wire
+
+eeherald_Css ecewire_css
+
+
+
+
+Student Section Artificial Intelligence
+
+
+india_hardware_market self-driving-aunomous-automotive-ev-car
+
+design-guide smart-home-iot
+
+sourcing-database smart-factory-iiot
+
+student-section ai-ml-dl

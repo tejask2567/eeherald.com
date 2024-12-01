@@ -1,0 +1,1 @@
+https://adgebra.co.in/Tracker/ClickTracker?p1=139606&p2=509&token=8420052200501&p3=&p4=${flag}&slotId=0&templateId=3580&pnStatus=${pnStatus}&pnReferUrl=${pnReferUrl}&p5=${url}

@@ -1,0 +1,91 @@
+/* Main container for the page */
+.news-page-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  /* Main content (news articles) section */
+  .news-section {
+    flex: 3; /* Takes 3 parts of the available width */
+    margin-right: 20px;
+  }
+  
+  /* Google ads section */
+  .google-ads-section {
+    flex: 1; /* Takes 1 part of the available width */
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  /* Placeholder styling for Google Ads */
+  .google-ad {
+    background-color: #f0f0f0;
+    height: 250px; /* Placeholder height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    font-size: 1.2rem;
+  }
+  
+  /* Article row styling */
+  .article-row {
+    display: flex;
+    cursor: pointer;
+  }
+  
+  .article-image {
+    width: 100px;
+    height: 100px;
+    margin-right: 4px;
+    object-fit: cover;
+  }
+  
+  .article-details {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .article-date {
+    font-size: 0.9rem;
+    color: purple;
+  }
+  
+  .article-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    
+  }
+  
+  .article-description {
+    font-size: 1rem; /* Description size */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit description to 2 lines */
+    -webkit-box-orient: vertical;
+  }
+  
+  /* Pagination styles */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    background-color: transparent;
+    border: none;
+    color: purple;
+    font-size: 1rem;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .pagination .active-page {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  

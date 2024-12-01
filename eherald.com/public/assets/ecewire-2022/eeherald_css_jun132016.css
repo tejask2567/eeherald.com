@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+td {
+	font-family: Arial, Helvetica, sans-serif;text-indent:inherit;
+}
+
+th {
+	font-family:Arial, Helvetica, sans-serif;text-indent:inherit; margin-left:10px;  
+}
+table { text-indent:inherit; 
+ }
+.section-link
+{
+ font-family:Arial, Helvetica, sans-serif; font-size:12px; text-decoration:none; color:#660000; 
+}
+.component-link
+{
+	font-family:Verdana;
+	font-size:10px;
+	color:#666666;
+	text-decoration:none;
+	display:table-cell; font-weight:bold;
+	
+}
+.main-text
+{
+ font-family:roboto,open sans; font-size:16px; text-decoration:none; color:#000000; margin-right:10;margin-left:10;
+}
+.title-text
+{
+ font-family:roboto; font-size:16px; text-decoration:none; color:#0000FF; margin-right:20;margin-left:20;font-weight:bold; 
+}
+
+.bottom-link
+{
+font-family:Arial, Helvetica, sans-serif; font-size:10px; text-decoration:none;color:#663300; 
+
+}
+.section-click-link
+{
+ font-family:Arial, Helvetica, sans-serif; font-size:12px; text-decoration:none; color:#33CC00; 
+}
+
+.bottom-click-link
+{
+font-family:Arial, Helvetica, sans-serif; font-size:10px; text-decoration:none; color:#33CC00;
+}
+.main-click-text
+{
+ font-family:Arial, Helvetica, sans-serif; font-size:12px;  color:#000000; margin-right:10;margin-left:10; 
+}
+
+.component-click-link
+{
+	font-family:Verdana;
+	font-size:10px;
+	color:#33CC00;
+	text-decoration:none;
+	display:table-cell; font-weight:bold;
+	
+}
+
+.title-big-text
+{
+ font-family:Verdana; font-size:18px; text-decoration:none; color:#157700; margin-left:20; font-weight:bold;
+}

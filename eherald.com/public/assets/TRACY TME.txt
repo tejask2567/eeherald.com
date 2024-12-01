@@ -1,0 +1,23 @@
+Hi Tracy:
+
+
+  Though we placed TME ad on home page for trial check, officially as per as billing is concerned, it will be counted after 1st May 2023 and will be extended by one month upto 31st Oct. 
+
+I already rised the technical issue with the ad banner in my previous mail. That please don't send ad banner in the form of any 3rd party tracking script (java or any other such code).
+
+What I need is the plain image html code from you. Where the image banner in the form jpg  not exceeding 100KB of memory size and the hyperlink: Customer's url to be opened when any of EEHerald reader click on the banner. 
+
+I could extract the image and the link to open on clicking the ad  and created the below html code and pasted on home page and one news page for your check. 
+
+"
+<a href="https://www.tme.com/in/en/?utm_source=emittsolutions.com&utm_medium=banner&utm_campaign=2023-03-17_MTM-8079_(og)_IN">
+        <img src="assets/tme.jpg" alt="side banner ad" />
+"
+
+
+If the above code is ok for you I will insert them in all top 1000 pages before 1st May. 
+
+
+Thank You
+
+Srinivas

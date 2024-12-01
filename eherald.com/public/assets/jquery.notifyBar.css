@@ -1,0 +1,93 @@
+  /*
+*  Notify Bar - jQuery plugin
+*
+*  Copyright (c) 2009-2010 Dmitri Smirnov
+*
+*  Licensed under the MIT license:
+*  http://www.opensource.org/licenses/mit-license.php
+*  
+*  Version: 1.2
+*
+*  Project home:
+*  http://www.dmitri.me/blog/notify-bar
+*/
+
+.jquery-notify-bar {
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  z-index:32768;
+  background-color:#d5edcd;
+  font-size:15px;
+  color:#000;
+  font-family: Arial, Verdana, sans-serif;
+ /* height:36px;
+  line-height:36px;
+  padding:20px 0px;
+  border-bottom:1px solid #bbb;*/
+  cursor: pointer;
+}
+.jquery-notify-bar span{
+  display:inline;
+}
+.jquery-notify-bar.error {
+  color:#d35d5d;
+  background-color:#f2cece;
+}
+.jquery-notify-bar.success {
+  color:#5db75d;
+  background-color:#d5edcd;
+}
+.jquery-notify-bar.notice {
+  color:#5db75d;
+  background-color:#d5edcd;
+}
+.jquery-notify-bar .fa.fa-times-circle-o,.jquery-notify-bar .fa.fa-check-circle-o{
+  padding: 0 10px 0 0;
+  font-size:20px;
+  position:absolute;
+  left:15px;
+  top:50%;
+  margin-top:-12px;
+  font-size: 24px;
+}
+.jquery-notify-bar.success .fa.fa-times-circle-o{
+  display: none;
+}
+.jquery-notify-bar.success .fa.fa-check-circle-o{
+  display: inline;
+}
+.jquery-notify-bar.error .fa.fa-times-circle-o{
+  display: inline;
+}
+.jquery-notify-bar.error .fa.fa-check-circle-o{
+  display: none;
+}
+.notify-bar-close {
+  position:absolute;
+  right:15px;
+  top:50%;
+  margin-top:-12px;
+  font-size: 24px;
+}
+.error .notify-bar-close{
+  color:#d35d5d;
+}
+.success .notify-bar-close{
+  color:#5db75d;
+}
+.notify-container{
+  width:100%;
+  padding:10px 45px 9px;
+  text-align: center;
+}
+@media(max-width: 768px){
+  .jquery-notify-bar {
+    /*height:42px;
+    line-height:42px;*/
+  }
+  .notify-container{
+    padding:10px 45px 11px;
+  }
+}
